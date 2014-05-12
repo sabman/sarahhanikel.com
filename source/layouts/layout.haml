@@ -17,12 +17,6 @@
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    %script{:src => "js/jquery-1.10.2.js"}
-    %script{:src => "js/bootstrap.min.js"}
-    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"}
-    %script{:src => "js/classie.js"}
-    %script{:src => "js/cbpAnimatedHeader.js"}
-    %script{:src => "js/freelancer.js"}
     -# = javascript_include_tag  "all"
 
   %body#page-top.index
@@ -51,3 +45,9 @@
         / /.navbar-collapse
       / /.container-fluid
     = yield
+  %script{:src => "js/jquery-1.10.2.js"}
+  %script{:src => "js/bootstrap.min.js"}
+  %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"}
+  %script{:src => "js/classie.js"}
+  %script{:src => "js/cbpAnimatedHeader.js"}
+  %script{:src => "js/freelancer.js"}
